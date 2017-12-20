@@ -1,28 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
-  <test name="Test2(failed)">
+  <test name="Test(failed)">
     <classes>
-      <class name="com.orangeHRM.commons.testscripts.TC001_VerifyAdminLoginCredentials">
+      <class name="com.nvidia.testscripts.TC001_VerifyAddcartTest">
         <methods>
           <include name="setUp"/>
           <include name="closeDriver"/>
+          <include name="verifyLoginWithCreadentials"/>
         </methods>
-      </class> <!-- com.orangeHRM.commons.testscripts.TC001_VerifyAdminLoginCredentials -->
-      <class name="com.orangeHRM.commons.testscripts.TC002_VerifyUserLoginCredentials">
-        <methods>
-          <include name="setUp"/>
-          <include name="closeDriver"/>
-        </methods>
-      </class> <!-- com.orangeHRM.commons.testscripts.TC002_VerifyUserLoginCredentials -->
-      <class name="com.orangeHRM.commons.testscripts.TC003_AgainLoginAdminAndUser">
-        <methods>
-          <include name="closeDriver"/>
-          <include name="verifyApprovalByAdmin"/>
-          <include name="verifyApproavlByUser"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.orangeHRM.commons.testscripts.TC003_AgainLoginAdminAndUser -->
+      </class> <!-- com.nvidia.testscripts.TC001_VerifyAddcartTest -->
     </classes>
-  </test> <!-- Test2(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

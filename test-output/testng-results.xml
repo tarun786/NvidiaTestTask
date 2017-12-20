@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="157116" started-at="2017-12-20T13:14:14Z" finished-at="2017-12-20T13:16:51Z">
+  <suite name="Suite" duration-ms="148127" started-at="2017-12-20T13:30:25Z" finished-at="2017-12-20T13:32:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="157116" started-at="2017-12-20T13:14:14Z" finished-at="2017-12-20T13:16:51Z">
+    <test name="Test" duration-ms="148127" started-at="2017-12-20T13:30:25Z" finished-at="2017-12-20T13:32:53Z">
       <class name="com.nvidia.testscripts.TC001_VerifyAddcartTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nvidia.testscripts.TC001_VerifyAddcartTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="21912" started-at="2017-12-20T18:44:14Z" finished-at="2017-12-20T18:44:36Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nvidia.testscripts.TC001_VerifyAddcartTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="20072" started-at="2017-12-20T19:00:25Z" finished-at="2017-12-20T19:00:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyLoginWithCreadentials()[pri:0, instance:com.nvidia.testscripts.TC001_VerifyAddcartTest@6a41eaa2]" name="verifyLoginWithCreadentials" duration-ms="135180" started-at="2017-12-20T18:44:36Z" finished-at="2017-12-20T18:46:51Z">
+        <test-method status="FAIL" signature="verifyLoginWithCreadentials()[pri:0, instance:com.nvidia.testscripts.TC001_VerifyAddcartTest@6a41eaa2]" name="verifyLoginWithCreadentials" duration-ms="128032" started-at="2017-12-20T19:00:45Z" finished-at="2017-12-20T19:02:53Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Checkoutpage title PayPal Checkout - Create a PayPal account!] but found [PayPal Checkout - Create a PayPal account!]]]>
@@ -54,11 +54,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithCreadentials -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.nvidia.testscripts.TC001_VerifyAddcartTest@6a41eaa2]" name="closeDriver" is-config="true" duration-ms="9" started-at="2017-12-20T18:46:51Z" finished-at="2017-12-20T18:46:51Z">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.nvidia.testscripts.TC001_VerifyAddcartTest@6a41eaa2]" name="closeDriver" is-config="true" duration-ms="9" started-at="2017-12-20T19:02:53Z" finished-at="2017-12-20T19:02:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- com.nvidia.testscripts.TC001_VerifyAddcartTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
