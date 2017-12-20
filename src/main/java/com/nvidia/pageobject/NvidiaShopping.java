@@ -135,7 +135,7 @@ public class NvidiaShopping extends TestBase {
 		selectt.selectByVisibleText("New York");
 		
 		billingpostalcode.clear();
-		billingpostalcode.sendKeys("postelcode");
+		billingpostalcode.sendKeys(prop.getProperty("postelcode"));
 		
 		sleepTime(40);
 		
