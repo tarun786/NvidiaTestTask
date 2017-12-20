@@ -1,4 +1,4 @@
-﻿# OrangeHRM-Automation with Selenium/Java
+﻿# Nvidia-Automation with Selenium/Java
 
 1) It is maven based project that can handle all the pom.xml dependency.
 2) I used for POM based Structure to maintain all locators in webPage.
