@@ -30,8 +30,8 @@ public class TC001_VerifyAddcartTest extends TestBase{
 		
 		try {
 			
-			Assert.assertEquals(actualdata.get(0), "Checkoutpage title PayPal Checkout - Create a PayPal account!");
-			Assert.assertEquals(actualdata.get(1), "");
+			Assert.assertEquals(actualdata.get(0).trim(), "Checkoutpage title PayPal Checkout - Create a PayPal account!");
+			Assert.assertEquals(actualdata.get(1).trim(), "");
 		} catch (Exception e) {
 			logger.info("Error found "+e.getMessage());
 		}
